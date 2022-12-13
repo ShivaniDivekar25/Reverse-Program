@@ -11,10 +11,14 @@ namespace Reversestore
             //ReverseProgram.ReverseNumber(number);
             //Console.ReadLine();
 
-            Console.WriteLine("Please enter the word");
-            string word = Console.ReadLine();
-            ReverseProgram.ReverseWord(word);
+            //Console.WriteLine("Please enter the word");
+            //string word = Console.ReadLine();
+            //ReverseProgram.ReverseWord(word);
+            //Console.ReadLine();
+
+            Array1.TestArray();
             Console.ReadLine();
+
         }
     }
 }
