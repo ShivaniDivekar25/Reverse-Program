@@ -7,11 +7,13 @@ namespace Reversestore
         static void Main(string[] args)
         {
             //Console.WriteLine("Please enter number");
-            //int input = Convert.ToInt32(Console.ReadLine());
-            //ReverseProgram.ReverseNumber(input);
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //ReverseProgram.ReverseNumber(number);
             //Console.ReadLine();
 
-            ReverseProgram.ReverseWord("Shivani");
+            Console.WriteLine("Please enter the word");
+            string word = Console.ReadLine();
+            ReverseProgram.ReverseWord(word);
             Console.ReadLine();
         }
     }
