@@ -10,16 +10,16 @@ namespace ReverseNumber
     {
         public static void TestArray()
         {
-            Console.WriteLine("Please enter size of array");
-            int size = Convert.ToInt32(Console.ReadLine());
-            int[] number = new int[size];
+            Console.WriteLine("Please enter size of array");    //User input.
+            int size = Convert.ToInt32(Console.ReadLine());     //Convert user input to int.
+            int[] number = new int[size];       //Creating array for number.
             Console.WriteLine("reading input from user and storing into array");
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < size; i++)      //Using for loop to take array element.
             {
                 number[i] = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("Display array elements");
-            for (int i = 0; i < number.Length; i++)
+            Console.WriteLine("Display array elements");        //Printing array elements.
+            for (int i = 0; i < number.Length; i++)     //Using for loop to store in Array.
             {
                 Console.Write(number[i] + " ");
             }
